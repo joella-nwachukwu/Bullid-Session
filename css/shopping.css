@@ -1,0 +1,32 @@
+* {
+    font-family: "lobster";
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: gray;
+}
+input {
+    width: 200px;
+    height: 12px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+
